@@ -46,7 +46,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     .video{
         display: none;
     }
-    div.containter.card{
+    div.card{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -79,7 +79,7 @@ header{
 .menu ul li a{
     color: white;
     display: inline-block;
-    padding: 50px 40px;
+    padding: 25px 110px;
     text-decoration: none;
 }
 
@@ -105,6 +105,9 @@ h1{
     font-family: 'Lora', serif;
     font-family: 'Martel', serif;
 }
+h1.tituloservicios{
+    text-align: center;
+}
 h2{
     font-family: 'Lora', serif;
     font-family: 'Martel', serif;
@@ -126,8 +129,9 @@ padding: 5em;
 img{
     display: inline-block;
 }
-form{
-    margin-left: 50rem;
+.formulario{
+    margin-left: 25%;
+    margin-right: 25%;
 }
 label{
     font-family: sans-serif;
@@ -162,4 +166,10 @@ margin-left: 45rem;
     display: flex;
     overflow: hidden;
     padding: 1rem;
+}
+.carousel-inner{
+padding-top: 2rem;
+padding-bottom: 17rem;
+padding-right: 14rem;
+padding-left: 14rem;
 }
