@@ -1,0 +1,165 @@
+* {
+    margin:0;
+    padding:0;
+}
+body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+24,2989d8+37,7db9e8+83,7db9e8+83,207cca+95 */
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 24%, rgba(41,137,216,1) 37%, rgba(125,185,232,1) 83%, rgba(125,185,232,1) 83%, rgba(32,124,202,1) 95%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 24%,rgba(41,137,216,1) 37%,rgba(125,185,232,1) 83%,rgba(125,185,232,1) 83%,rgba(32,124,202,1) 95%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(30,87,153,1) 24%,rgba(41,137,216,1) 37%,rgba(125,185,232,1) 83%,rgba(125,185,232,1) 83%,rgba(32,124,202,1) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    nav{
+        display: none;
+    }
+    picture{
+        flex-direction: column;
+        justify-content: flex-start;
+        display: none;
+    }
+    .video{
+        display: none;
+    }
+    div.containter.card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    form{
+    margin: 0em;
+}
+}
+  /* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    nav{
+        display: none;
+    }
+    picture{
+        flex-direction: column;
+        justify-content: flex-start;
+        display: none;
+    }
+    .video{
+        display: none;
+    }
+    div.containter.card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    form{
+    margin: 0em;
+    }
+}
+
+header{
+    padding: 0cm;
+    margin: 0cm;
+}
+.menu{
+    background-color: #000;
+
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: white;
+    display: inline-block;
+    padding: 50px 40px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color: #42B881;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.col{
+    margin: 0cm;
+}
+li{
+    list-style: none;
+}
+
+footer{
+    border: 0em;
+    padding: 0em;
+}
+h1{    
+    font-family: 'Lora', serif;
+    font-family: 'Martel', serif;
+}
+h2{
+    font-family: 'Lora', serif;
+    font-family: 'Martel', serif;
+}
+h3{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Lora', serif;
+font-family: 'Martel', serif;
+
+}
+p{
+    font-family: 'Lora', serif;
+font-family: 'Martel', serif;
+font-family: 'Shadows Into Light', cursive;
+padding: 5em;
+}
+
+img{
+    display: inline-block;
+}
+form{
+    margin-left: 50rem;
+}
+label{
+    font-family: sans-serif;
+}
+input{
+    background-color: skyblue;
+    width: 10rem;
+    height: 2rem;
+    border: solid 2px rgba(40, 65, 206, 0.658);
+    border-radius: 3rem;
+}
+div.form{
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+div.text{
+margin-left: 15rem;
+}
+
+input#enviar:hover{
+    background-color: #42B881;
+}
+.video{
+margin-left: 45rem;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.presentacion{
+    display: flex;
+    overflow: hidden;
+    padding: 1rem;
+}
